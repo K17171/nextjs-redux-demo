@@ -14,6 +14,14 @@ const CountPage: React.FC = () => {
   }
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-purple-500 to-indigo-600 text-white">
+      <div className="absolute top-5 right-5">
+        <Link
+          href="/userCurd"
+          className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-sm font-medium rounded-lg shadow-lg hover:from-blue-600 hover:to-purple-700 transition-transform transform hover:scale-105"
+        >
+          User Curd
+        </Link>
+      </div>
       <h1 className="text-5xl font-bold mb-8">Welcome to the Counter App</h1>
       <div className="text-center">
         <p className="text-2xl">Current Count:</p>
