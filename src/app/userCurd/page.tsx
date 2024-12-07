@@ -4,6 +4,7 @@ import { useState } from "react";
 import UserForm from "./components/UserForm";
 import UserTable from "./components/UserTable";
 import { User } from "../../redux/features/userSlice";
+import Link from "next/link";
 
 export default function Page() {
   const [showForm, setShowForm] = useState(false);
@@ -20,6 +21,9 @@ export default function Page() {
       >
         Add User
       </button>
+      <Link href="/" className="px-6 py-3 bg-blue-500 text-lg font-medium rounded-lg hover:bg-blue-600 transition">
+        Back to Home
+      </Link>
       <UserTable
         onEdit={(user) => {
           setEditUser(user);
