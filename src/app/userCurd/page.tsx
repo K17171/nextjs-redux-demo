@@ -12,7 +12,7 @@ export default function Page() {
 
   return (
     <div className="p-6 space-y-4">
-      <div className="flex space-x-4">
+      <div className="flex justify-between space-x-4">
         <button
           onClick={() => {
             setEditUser(null);
