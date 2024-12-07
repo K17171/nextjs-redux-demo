@@ -23,7 +23,7 @@ const UserTable: React.FC<UserTableProps> = ({ onEdit }) => {
             <th className="px-4 py-2">Last Name</th>
             <th className="px-4 py-2">Age</th>
             <th className="px-4 py-2">Email</th>
-            <th className="px-4 py-2">Number</th>
+            <th className="px-4 py-2">Phone Number</th>
             <th className="px-4 py-2">Actions</th>
           </tr>
         </thead>

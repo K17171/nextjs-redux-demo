@@ -175,7 +175,7 @@ The `userSlice.ts` manages the user data with the following actions:
 
 ### Counter Application
 #### Count Page
-![Count Page](https://i.ibb.co/pxMBpPc/counter-Page.png)
+![Count Page](https://i.ibb.co/v3LBDTZ/count-Page.png)
 
 #### Increment Page
 ![Increment Page](https://i.ibb.co/XY2XCbB/increment-Page.png)
