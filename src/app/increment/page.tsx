@@ -1,9 +1,8 @@
 'use client';
 
-import Link from "next/link";
-import { useDispatch } from "react-redux";
 import { increment } from "@/redux/features/counterSlice";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
+import Link from "next/link";
 import { RootState } from "../../redux/store";
 
 const IncrementPage: React.FC = () => {

@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
-import { Manrope } from 'next/font/google';
-import './styles/globals.css';
 import StoreProvider from './StoreProvider';
-
-const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
+import './styles/globals.css';
 
 export const metadata: Metadata = {
     title: 'Create Next App',
