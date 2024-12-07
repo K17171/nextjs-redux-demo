@@ -178,16 +178,19 @@ The `userSlice.ts` manages the user data with the following actions:
 ![Count Page](https://i.ibb.co/pxMBpPc/counter-Page.png)
 
 #### Increment Page
-![Increment Page](https://via.placeholder.com/800x400?text=Counter+Application+-+Increment+Page)
+![Increment Page](https://i.ibb.co/XY2XCbB/increment-Page.png)
 
 #### Decrement Page
-![Decrement Page](https://via.placeholder.com/800x400?text=Counter+Application+-+Decrement+Page)
+![Decrement Page](https://i.ibb.co/MSPb3hj/Decrement-Page.png)
 
 ---
 
 ### User CRUD Application
 #### User Table
-![User Table](https://via.placeholder.com/800x400?text=User+CRUD+Application+-+User+Table)
+![User Table](https://i.ibb.co/wK3vTpJ/user-Curd-Page.png)
 
-#### Add/Edit User Modal
-![User Modal](https://via.placeholder.com/800x400?text=User+CRUD+Application+-+Add+or+Edit+User)
+#### Add User Modal
+![User Modal](https://i.ibb.co/6PM3zhL/add-User-Model.png)
+
+#### Edit User Modal
+![User Modal](https://i.ibb.co/mbgbz3W/edit-User-Model.png)

@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { addUser, editUser } from "../../../redux/features/userSlice";
 import { User } from "../../../redux/features/userSlice";
-import { useEffect, useId } from "react";
+import { useEffect } from "react";
 
 interface UserFormProps {
     existingUser?: User | null;
@@ -12,7 +12,6 @@ interface UserFormProps {
 }
 
 const UserForm: React.FC<UserFormProps> = ({ existingUser, onClose }) => {
-    const id = useId();
     const dispatch = useDispatch();
     const {
         register,
