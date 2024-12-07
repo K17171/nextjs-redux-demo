@@ -29,7 +29,7 @@ const UserForm: React.FC<UserFormProps> = ({ existingUser, onClose }) => {
         if (existingUser) {
             dispatch(editUser({ ...data, id: existingUser.id }));
         } else {
-            dispatch(addUser({ ...data, id: id }));
+            dispatch(addUser({ ...data, id: Date.now().toString() }));
         }
         reset();
         onClose();
