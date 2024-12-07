@@ -22,7 +22,10 @@ const IncrementPage: React.FC = () => {
       >
         Increment
       </button>
-      <div className="mt-10">
+      <div className="mt-10 flex space-x-4">
+        <Link href="/decrement" className="px-6 py-3 bg-red-500 text-lg font-medium rounded-lg hover:bg-red-600 transition">
+          Go to Decrement Page
+        </Link>
         <Link href="/" className="px-6 py-3 bg-blue-500 text-lg font-medium rounded-lg hover:bg-blue-600 transition">
           Back to Home
         </Link>

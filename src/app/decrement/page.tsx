@@ -8,7 +8,7 @@ import { RootState } from "../../redux/store";
 const DecrementPage: React.FC = () => {
     const dispatch = useAppDispatch();
     const count = useAppSelector((state: RootState) => state.counter.value);
-    
+
     const handleClick = () => {
         dispatch(decrement());
     };
@@ -26,7 +26,10 @@ const DecrementPage: React.FC = () => {
             >
                 Decrement
             </button>
-            <div className="mt-10">
+            <div className="mt-10 flex space-x-4">
+                <Link href="/increment" className="px-6 py-3 bg-green-500 text-lg font-medium rounded-lg hover:bg-green-600 transition">
+                    Go to Increment Page
+                </Link>
                 <Link href="/" className="px-6 py-3 bg-blue-500 text-lg font-medium rounded-lg hover:bg-blue-600 transition">
                     Back to Home
                 </Link>
